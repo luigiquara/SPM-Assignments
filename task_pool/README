@@ -1,0 +1,1 @@
+Implement a task pool using C++ threads and STDLIB. The task pool should support parallelism degree as creation parameter and the submission of tasks that are computed and produce results through side effects.

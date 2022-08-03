@@ -1,0 +1,1 @@
+Provide a vector<float> map(vector<float>v, int mode, function<float(float)> f, int pardegree) computing in parallel (using C++ threads or asyncs) the map(f) over v. Mode is 0 (block) or 1 (cyclic) scheduling.

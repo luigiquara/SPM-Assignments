@@ -1,0 +1,15 @@
+i = 0
+pos = 0
+
+while(pos < v.size())
+
+first, start nw asyncs of the first nw position of the vector
+i = nw
+pos = nw
+
+now, somehow get notified from a thread that it has finished
+get its tid, assign to it a new job on the correct position
+i = tid
+new_pos = pos + tid, checking that new_pos < v.size()
+
+the notification can be done with a vector of condition variables, one for thread
